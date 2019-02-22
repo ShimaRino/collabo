@@ -1,19 +1,4 @@
-h1{
-	color: red
-}
 
-h1{
-	text-align: center;
-}
-.center{
-	text-align: center;
-}
-
-.image {
-    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
-    width:  180px;       /* ※縦横を同値に */
-    height: 180px;       /* ※縦横を同値に */
-}
 /*
 
  * This is a manifest file that'll be compiled into application.css, which will include all the files
@@ -30,3 +15,23 @@ h1{
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+h1{
+	color: red;
+	text-align: center;
+}
+
+
+.center{
+	text-align: center;
+}
+
+.image {
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  180px;       /* ※縦横を同値に */
+    height: 180px;       /* ※縦横を同値に */
+    box-shadow: 0 0 8px gray;
+}
